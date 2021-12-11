@@ -1,0 +1,97 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*APRESENTAÇÃO / NAVEGAÇÃO*/
+#top{
+    height: 100vh;
+    background-image: url(image/baaack.jpg);
+    background-size: cover;
+}
+.top-content{
+    height: 100px;
+}
+.top-menu{
+    margin: auto;
+    max-width: 900px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    padding-left: 45px;
+}
+.menu a{
+    font-size: 20px;
+    transition: 0.3s;
+}
+.menu a:hover{
+    color: #CC6CE6;
+    transition: 0.4s;
+}
+.top-content img{
+    width: 120px;
+    transition: 0.3s;
+}
+.top-content img:hover{
+    width: 130px;
+    transition: 0.4s;
+}
+.apresentation-content{
+    margin: auto;
+    padding-top: 30vh;
+    text-align: left;
+    width: 70%;
+    max-width: 800px;
+    color: #fff;
+}
+.apresentation-content h1{
+    font-size: 60px;
+}
+.apresentation-content h2{
+    font-size: 35px;
+    color: #CC6CE6;
+}
+/*BARRA PISCANDO*/
+.apresentation-content h2::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca 0.7s infinite;
+}
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+/*CURSOR DE MOVIMENTO*/
+#course-move{
+    right: 10px;
+    bottom: 100px;
+    position: fixed;
+    font-size: 15px;
+    color: #fff;
+    transform: rotate(-270deg);
+}
+#course-move a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
