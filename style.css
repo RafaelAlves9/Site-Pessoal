@@ -4,7 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 a{
     text-decoration: none;
     color: #fff;
@@ -13,7 +17,7 @@ a{
 /*APRESENTAÇÃO / NAVEGAÇÃO*/
 #top{
     height: 100vh;
-    background-image: url(image/baaack.jpg);
+    background-image: url(image/back-1.png);
     background-size: cover;
 }
 .top-content{
@@ -36,7 +40,7 @@ a{
     padding-left: 45px;
 }
 .menu a{
-    font-size: 20px;
+    font-size: 18px;
     transition: 0.3s;
 }
 .menu a:hover{
@@ -56,18 +60,21 @@ a{
     padding-top: 30vh;
     text-align: left;
     width: 70%;
-    max-width: 800px;
+    max-width: 900px;
     color: #fff;
 }
 .apresentation-content h1{
     font-size: 60px;
+    font-weight: 500;
 }
 .apresentation-content h2{
+    font-weight: lighter;
+    margin-top: 10px;
     font-size: 35px;
     color: #CC6CE6;
 }
 /*BARRA PISCANDO*/
-.apresentation-content h2::after{
+.apresentation-content h2:last-child:after{
     content: '|';
     margin-left: 5px;
     opacity: 1;
@@ -83,15 +90,8 @@ a{
 }
 /*CURSOR DE MOVIMENTO*/
 #course-move{
-    right: 10px;
-    bottom: 100px;
+    right: 30px;
+    bottom: 30px;
     position: fixed;
-    font-size: 15px;
-    color: #fff;
-    transform: rotate(-270deg);
-}
-#course-move a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transform: rotate(-90deg);
 }

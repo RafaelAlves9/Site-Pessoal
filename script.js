@@ -1,4 +1,4 @@
-const texto = document.querySelector('.apresentation-content h2')
+const texto = document.querySelector('.apresentation-content span h2')
 
 function textoAnimado(elemento){
     const textoArray = elemento.innerHTML.split('')
