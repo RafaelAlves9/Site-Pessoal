@@ -95,3 +95,6 @@ a{
     position: fixed;
     transform: rotate(-90deg);
 }
+#course-move img:hover{
+    width: 50px;
+}
