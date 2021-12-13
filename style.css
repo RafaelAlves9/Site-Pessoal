@@ -132,6 +132,8 @@ a{
     display: flex;
 }
 .about-me-resume-screen{
+    border: 1px solid black;
+    border-radius: 50px;
     width: 40%;
 }
 .about-me-resume-text{
