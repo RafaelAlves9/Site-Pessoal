@@ -199,8 +199,63 @@ a{
 }
 .portifolio-resume-square{
     width: 32%;
-    height: 300px;
-    border: 1px solid #fff;
-    margin: 15px 15px 0 0;
+    height: 280px;
+    border: 2px solid #fff;
+    margin: 25px 15px 0 0;
     border-radius: 5px;
+    transition: 0.3s;
+}
+.portifolio-resume-square img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.portifolio-resume-square:hover{
+    border: 2px solid #CC6CE6;
+    transition: 0.5s;
+}
+
+
+/*BLOCO 3 - QUALIFIÇAÕES*/
+#qualification-tab{
+    background-color: #000;
+    padding-bottom: 100px;
+}
+.qualification-content{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+.qualification-content .tab-title{
+    font-size: 36px;
+}
+.qualification-resume{
+    margin-top: 50px;
+}
+.study-content{
+    display: flex;
+    justify-content: space-between;
+}
+.qualification-resume-title{
+    text-align: center;
+    width: 30%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.qualification-resume-text{
+    margin-top: 40px;
+    width: 50%;
+    text-align: left;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.experience-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
