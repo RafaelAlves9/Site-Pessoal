@@ -285,3 +285,32 @@ a{
 .contact-list{
     width: 40%;
 }
+.contact-resume{
+    margin-top: 50px;
+}
+
+/*FORMULÁRIO*/
+.send-messenge{
+    height: 550px;
+    width: 500px;
+    border: 2px solid #316C99;
+}
+.send-messenge-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: none;
+}
+.send-messenge-form input{
+    outline: none;
+    width: 368px;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+.send-messenge-form textarea{
+    padding: 7px;
+    outline: none;
+}
+.button-form{
+    width: 100px;
+}
