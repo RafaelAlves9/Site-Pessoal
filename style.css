@@ -42,6 +42,7 @@ a{
     transition: 0.3s;
 }
 .menu a:hover{
+    font-size: 19px;
     color: #CC6CE6;
     transition: 0.4s;
 }
@@ -96,4 +97,47 @@ a{
 }
 #course-move img:hover{
     width: 50px;
+}
+
+/*BLOCO 1 - SOBRE MIM*/
+#about-me-tab{
+    border-top: 1px solid rgba(128, 128, 128, 0.63);
+    height: 90vh;
+    background-color: #000;
+}
+.about-me-content{
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+}
+.tab-number{
+    background-color: #CC6CE6;
+    margin: auto;
+    width: 130px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.tab-title{
+    font-size: 40px;
+    margin-top: 15px;
+}
+.about-me-resume{
+    margin-top: 70px;
+    display: flex;
+}
+.about-me-resume-screen{
+    width: 40%;
+}
+.about-me-resume-text{
+    text-align: left;
+}
+.about-me-resume-text h2{
+    font-weight: 500;
+    font-size: 27px;
 }
