@@ -19,7 +19,6 @@ a{
 }
 .top-content{
     height: 90px;
-    background-color: #000;
 }
 .top-menu{
     margin: auto;
@@ -43,7 +42,7 @@ a{
     transition: 0.3s;
 }
 .menu a:hover{
-    font-size: 19px;
+    text-decoration: underline;
     color: #CC6CE6;
     transition: 0.4s;
 }
@@ -107,7 +106,7 @@ a{
 #about-me-tab{
     border-top: 1px solid rgba(128, 128, 128, 0.63);
     background-color: #000;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 .about-me-content{
     margin: auto;
@@ -190,6 +189,9 @@ a{
     font-weight: 500;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+.portifolio-resume-categories li:hover{
+    color: rgba(255, 255, 255, 0.849);
+}
 .selecioned{
     color: #CC6CE6;
 }
@@ -258,4 +260,28 @@ a{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+
+#contact-tab{
+    background-color: #000;
+    padding-bottom: 100px;
+}
+.contact-content{
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+}
+.contact-resume{
+    display: flex;
+    justify-content: space-between;
+}
+.send-mesenge{
+    width: 60%;
+}
+.contact-list{
+    width: 40%;
 }
