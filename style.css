@@ -11,7 +11,7 @@ a{
     color: #fff;
 }
 
-/*APRESENTAÇÃO / NAVEGAÇÃO*/
+/*APRESENTAÇÃO - NAVEGAÇÃO*/
 #top{
     height: 100vh;
     background-image: url(image/back-1.png);
@@ -220,7 +220,7 @@ a{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .portifolio-resume-categories li:hover{
-    color: rgba(255, 255, 255, 0.849);
+    color: rgba(255, 255, 255, 0.918);
 }
 .selecioned{
     color: #CC6CE6;
@@ -296,7 +296,7 @@ a{
     justify-content: space-between;
 }
 
-
+/*BLOCO 4 - CONTATO*/
 #contact-tab{
     background-color: #000;
     padding-bottom: 100px;
@@ -366,6 +366,7 @@ a{
     max-width: 150px;
     text-align: center;
 }
+
 /*CONTATO LISTA*/
 .contact-list p{
     margin-top: 80px;
@@ -385,7 +386,9 @@ a{
 .contact-list a{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+.contact-list a:hover{
+    color: rgba(255, 255, 255, 0.808);
 }
 .contact-list a img{
     max-width: 45px;
