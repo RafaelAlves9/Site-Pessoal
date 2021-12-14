@@ -218,12 +218,23 @@ a{
     cursor: pointer;
     font-weight: 500;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    transition: 0.3s;
 }
 .portifolio-resume-categories li:hover{
     text-decoration: underline;
+    transition: 0.6s;
 }
 .selectioned{
-    color: #CC6CE6;
+    color: #CC6CE6;opacity: 1;
+    animation: semi-pisca 1s infinite;
+}
+@keyframes semi-pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.75;
+    }
 }
 .portifolio-resume{
     margin: auto;
@@ -232,11 +243,11 @@ a{
     min-height: 600px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .portifolio-resume-square{
     width: 32%;
     height: 280px;
+    margin-left: 15px;
     border: 2px solid #fff;
     border-radius: 5px;
     transition: 0.3s;
@@ -359,6 +370,7 @@ a{
     width: 90%;
     max-width: 368px;
     height: 150px;
+    resize: none;
 }
 .submit-messenge{
     margin-top: 10px;
