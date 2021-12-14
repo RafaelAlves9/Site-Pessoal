@@ -220,9 +220,9 @@ a{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 .portifolio-resume-categories li:hover{
-    color: rgba(255, 255, 255, 0.918);
+    text-decoration: underline;
 }
-.selecioned{
+.selectioned{
     color: #CC6CE6;
 }
 .portifolio-resume{
