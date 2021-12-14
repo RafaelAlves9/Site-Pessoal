@@ -88,18 +88,42 @@ a{
         opacity: 0;
     }
 }
-/*CURSOR DE MOVIMENTO*/
-#course-move{
+/*CURSOR AVANÇAR*/
+#course-move a{
     right: 30px;
-    bottom: 20px;
-    position: fixed;
+    bottom: 25px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#course-move span{
     transform: rotate(+90deg);
+    padding-right: 35px;
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 15px;
 }
 #course-move img{
-    width: 60px;
+    width: 50px;
 }
-#course-move img:hover{
-    width: 63px;
+/*CURSOR TOPO*/
+#course-move2 a{
+    right: 15px;
+    bottom: 75px;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#course-move2 span{
+    transform: rotate(+90deg);
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.644);
+    font-size: 15px;
+}
+#course-move2 img{
+    width: 50px;
+    transform: rotate(-180deg);
 }
 
 /*BLOCO 1 - SOBRE MIM*/
@@ -140,6 +164,11 @@ a{
     margin-top: 60px;
     width: 40%;
 }
+.about-me-resume-screen img{
+    width: 300px;
+    border: 2px solid #CC6CE6;
+    border-radius: 5px;
+}
 .about-me-resume-text{
     text-align: left;
     width: 50%;
@@ -174,7 +203,8 @@ a{
 }
 .portifolio-resume-categories{
     margin: auto;
-    width: 500px;
+    width: 95%;
+    max-width: 500px;
     margin-bottom: 40px;
 }
 .portifolio-resume-categories ul{
@@ -196,14 +226,18 @@ a{
     color: #CC6CE6;
 }
 .portifolio-resume{
+    margin: auto;
+    max-width: 1300px;
+    width: 95%;
+    min-height: 600px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .portifolio-resume-square{
     width: 32%;
     height: 280px;
     border: 2px solid #fff;
-    margin: 25px 15px 0 0;
     border-radius: 5px;
     transition: 0.3s;
 }
@@ -215,7 +249,7 @@ a{
 }
 .portifolio-resume-square:hover{
     border: 2px solid #CC6CE6;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 
@@ -291,26 +325,77 @@ a{
 
 /*FORMULÁRIO*/
 .send-messenge{
-    height: 550px;
+    height: 600px;
     width: 500px;
     border: 2px solid #316C99;
 }
 .send-messenge-form{
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     outline: none;
 }
 .send-messenge-form input{
     outline: none;
-    width: 368px;
+    width: 90%;
+    max-width: 368px;
     margin-bottom: 15px;
     padding: 7px;
+}
+.localidade{
+    display: flex;
+    width: 90%;
+    max-width: 368px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.localidade input{
+    width: 49%;
 }
 .send-messenge-form textarea{
     padding: 7px;
     outline: none;
+    width: 90%;
+    max-width: 368px;
+    height: 150px;
 }
-.button-form{
-    width: 100px;
+.submit-messenge{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+}
+/*CONTATO LISTA*/
+.contact-list p{
+    margin-top: 80px;
+    font-size: 18px;
+}
+.contact-list ul{
+    margin-top: 70px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+}
+.contact-list li{
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.contact-list a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-list a img{
+    max-width: 45px;
+    padding-right: 10px;
+}
+
+/*FOOTER*/
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
 }

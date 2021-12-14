@@ -37,7 +37,10 @@
     </header>
     
     <div id="course-move"><!--SETA DE MOVIMENTO-->
-        <a href="#about-me-tab"><img src="https://img.icons8.com/fluency/48/000000/circled-right-2.png"/></a>
+        <a href="#about-me-tab"><span>AVANÇAR</span><img src="image/seta-arrow-gif-1.gif"/></a>
+    </div>
+    <div id="course-move2"><!--SETA DE MOVIMENTO-->
+        <a href="#top"><img src="image/seta-arrow-gif-1.gif"/><span>TOPO</span></a>
     </div>
 
     <section id="about-me-tab"><!--BLOCO 1-->
@@ -45,7 +48,7 @@
             <h1 class="tab-number">01</h1>
             <h1 class="tab-title">Sobre</h1>
             <div class="about-me-resume">
-                <div class="about-me-resume-screen"><img style="width: 300px;" src="image/perfil.jpeg" alt=""></div>
+                <div class="about-me-resume-screen"><img src="image/perfil.jpeg" alt=""></div>
                 <div class="about-me-resume-text">
                     <h2>Rafael Alves</h2>
                     <span>
@@ -138,21 +141,34 @@
                 <div class="send-messenge">
                     <img style="width: 100px;" src="image/mensagem-icon.png" alt="">
                     <form class="send-messenge-form" name="contatoform" method="post">
-                        <input type="text" name="nome" placeholder="Nome / Apelido" required>
-                        <input type="email" name="email" placeholder="Digite seu melhor Email" required>
-                        <textarea name="mensagem" placeholder="Envie-me uma mensagem!" style="margin: 0px; width: 366px; height: 171px;" required></textarea>
-                        <input type="button" value="enviar" class="button-form">
+                        <input type="text" name="nome" placeholder="Nome / Apelido*" required>
+                        <input type="email" name="email" placeholder="Digite seu melhor Email*" required>
+                        De onde você é? <br> <br>
+                        <div class="localidade">
+                            <input type="cep" name="CEP" placeholder="Digite seu CEP">
+                            <input type="text" name="estado" placeholder="Estado">
+                            <input type="text" name="Bairro" placeholder="Bairro">
+                            <input type="text" name="rua" placeholder="Rua">
+                        </div>
+                        <textarea name="mensagem" placeholder="Envie-me uma mensagem!*" required></textarea>
+                        <div class="submit-messenge"><input type="submit" value="enviar" class="button-form"></div>
                     </form>
                 </div>
                 <div class="contact-list">
-                    a
+                    <p>Se quiser entrar em contato comigo, fique à vontade :)</p>
+                    <ul>
+                        <li><a href=""><img src="image/WhatsApp.svg.png" alt="">WhatsApp</a></li>
+                        <li><a href=""><img src="image/linkedin.png" alt="">Linkedin</a></li>
+                        <li><a href=""><img src="image/github1.jpg" alt="">GitHub</a></li>
+                        <li><a href=""><img src="image/discord.png" alt="">Discord</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <footer><!--FOOTER-->
-
+        &copy;2021 Rafael Alves
     </footer>
     
     <script src="script.js"></script>
