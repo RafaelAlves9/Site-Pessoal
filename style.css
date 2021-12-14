@@ -236,14 +236,16 @@ a{
     margin: auto;
     max-width: 1300px;
     width: 95%;
-    min-height: 600px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .portifolio-resume-square{
+    min-width: 300px;
     width: 32%;
     height: 280px;
     margin-left: 15px;
+    margin-bottom: 15px;
     border: 2px solid #fff;
     border-radius: 5px;
     transition: 0.3s;
