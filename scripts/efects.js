@@ -19,13 +19,13 @@ document.addEventListener("scroll", ()=> {
     }else{
         navbar.style.backgroundColor = "transparent"
     }
-});
+})
 
 //MOSTRANDO CURSOR TOPO
 function showCourseTop(){
     const posicaoy = window.pageYOffset
-    const courseTop = queryS('#course-move2')
-    if(posicaoy < 900){
+    const courseTop = queryS('#course-move2') 
+    if(posicaoy < 650){
         courseTop.style.display = 'none'
     }else{
         courseTop.style.display = 'flex'

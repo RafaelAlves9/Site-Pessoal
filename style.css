@@ -113,7 +113,7 @@ a{
 /*CURSOR TOPO*/
 #course-move2 a{
     right: 15px;
-    bottom: -55px;
+    bottom: 75px;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -207,14 +207,14 @@ a{
 }
 .portifolio-resume-categories{
     margin: auto;
-    width: 95%;
+    width: 98%;
     max-width: 500px;
     margin-bottom: 40px;
 }
 .portifolio-resume-categories ul{
     margin-top: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     font-weight: lighter;
 }
@@ -233,7 +233,7 @@ a{
         opacity: 1;
     }
     50%{
-        opacity: 0.75;
+        opacity: 0.5;
     }
 }
 .portifolio-resume{
