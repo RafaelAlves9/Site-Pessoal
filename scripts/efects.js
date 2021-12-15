@@ -13,21 +13,21 @@ textoAnimado(texto)
 const navbar = queryS('.top-content')
 document.addEventListener("scroll", ()=> {
     const posicaoy = window.pageYOffset
+    showCourseTop()
     if (posicaoy > 0) {
         navbar.style.backgroundColor = "#000"
     }else{
         navbar.style.backgroundColor = "transparent"
     }
-    showCourseTop()
 });
 
-  //MOSTRANDO CURSOR TOPO
+//MOSTRANDO CURSOR TOPO
 function showCourseTop(){
     const posicaoy = window.pageYOffset
-    const courseTop = document.getElementById('#course-move2')
-    if(posicaoy > 800){
-        courseTop.style.display = 'flex'
-    }else{
+    const courseTop = queryS('#course-move2')
+    if(posicaoy < 900){
         courseTop.style.display = 'none'
+    }else{
+        courseTop.style.display = 'flex'
     }
 }

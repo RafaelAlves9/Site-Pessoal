@@ -113,9 +113,9 @@ a{
 /*CURSOR TOPO*/
 #course-move2 a{
     right: 15px;
-    bottom: 75px;
+    bottom: -55px;
     position: fixed;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
