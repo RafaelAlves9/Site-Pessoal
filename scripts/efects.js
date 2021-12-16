@@ -13,21 +13,35 @@ textoAnimado(texto)
 const navbar = queryS('.top-content')
 document.addEventListener("scroll", ()=> {
     const posicaoy = window.pageYOffset
-    showCourseTop()
-    if (posicaoy > 0) {
+    if (posicaoy > 10) {
         navbar.style.backgroundColor = "#000"
     }else{
-        navbar.style.backgroundColor = "transparent"
+        navbar.style.backgroundColor = ""
     }
+    showCourseTop()
+    animeteScroll()
 })
 
 //MOSTRANDO CURSOR TOPO
 function showCourseTop(){
     const posicaoy = window.pageYOffset
-    const courseTop = queryS('#course-move2') 
+    const courseTop = queryS('#course-move2')
     if(posicaoy < 650){
         courseTop.style.display = 'none'
     }else{
         courseTop.style.display = 'flex'
     }
+}
+
+//animação lazy
+const target = document.querySelectorAll('[data-anime]')
+const animationClass = 'animated'
+
+function animeteScroll(){
+    const posicaoy = window.pageYOffset + (window.innerHeight * 3) / 3.5
+    target.forEach((e)=>{
+        if (posicaoy > e.offsetTop){
+            e.classList.add(animationClass)
+        }
+    })
 }

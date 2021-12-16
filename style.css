@@ -416,3 +416,17 @@ footer{
     background-color: #000;
     color: #fff;
 }
+
+
+
+
+/*ANIMATION*/
+[data-anime]{
+    opacity: 0;
+    transform: scale(0);
+}
+[data-anime].animated{
+    opacity: 1;
+    transition: 1.5s;
+    transform: scale(1);
+}
