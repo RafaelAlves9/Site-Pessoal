@@ -476,7 +476,7 @@ footer{
 }
 [data-anime].animated{
     opacity: 1;
-    transition: 1.2s;
+    transition: .8s;
     transform: scale(1);
 }
 
