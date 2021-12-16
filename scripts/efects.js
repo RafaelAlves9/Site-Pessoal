@@ -13,7 +13,7 @@ textoAnimado(texto)
 const navbar = queryS('.top-content')
 document.addEventListener("scroll", ()=> {
     const posicaoy = window.pageYOffset
-    if (posicaoy > 10) {
+    if (posicaoy > 0) {
         navbar.style.backgroundColor = "#000"
     }else{
         navbar.style.backgroundColor = ""
@@ -38,7 +38,7 @@ const target = document.querySelectorAll('[data-anime]')
 const animationClass = 'animated'
 
 function animeteScroll(){
-    const posicaoy = window.pageYOffset + (window.innerHeight * 3) / 3.5
+    const posicaoy = window.pageYOffset + (window.innerHeight * 3) / 4
     target.forEach((e)=>{
         if (posicaoy > e.offsetTop){
             e.classList.add(animationClass)

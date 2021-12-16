@@ -13,9 +13,12 @@ a{
 
 /*APRESENTAÇÃO - NAVEGAÇÃO*/
 #top{
-    height: 100vh;
+    height: 100vh;  
     background-image: url(image/back-1.png);
     background-size: cover;
+}
+.background{
+    height: 100vh;
 }
 .top-content{
     height: 90px;
@@ -104,7 +107,6 @@ a{
 #course-move span{
     transform: rotate(+90deg);
     padding-right: 35px;
-    color: rgba(255, 255, 255, 0.644);
     font-size: 13px;
 }
 #course-move img{
@@ -122,7 +124,6 @@ a{
 #course-move2 span{
     transform: rotate(+90deg);
     padding-left: 15px;
-    color: rgba(255, 255, 255, 0.644);
     font-size: 15px;
 }
 #course-move2 img{
@@ -423,7 +424,7 @@ footer{
 /*ANIMATION*/
 [data-anime]{
     opacity: 0;
-    transform: scale(0);
+    transform: scale(0.5);
 }
 [data-anime].animated{
     opacity: 1;
