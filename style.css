@@ -22,9 +22,9 @@ a{
 }
 /*MENU MOBILE*/
 .top-content-mobile{
-    height: 55px;
+    height: 65px;
     background-color: #000;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     top: 0;
@@ -36,7 +36,7 @@ a{
 }
 .top-content-mobile img{
     width: 100px;
-    margin: 0 15px;
+    margin: 0 25px;
     cursor: pointer;
 }
 .menu-openned{
@@ -56,10 +56,17 @@ a{
 }
 .menu-openned li{
     padding: 25px 0 0 10px;
-    font-size: 17px;
+    font-size: 20px;
+}
+.menu-openned a:hover{
+    color: rgba(255, 255, 255, 0.767);
 }
 .show{
-    width: 60vw;
+    width: 50vw;
+}
+.close-menu{
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /*MENU DESKTOP*/
@@ -488,6 +495,9 @@ footer{
 @media (max-width:900px){
     .top-content{
         display: none;
+    }
+    .top-content-mobile{
+        display: flex;
     }
     .about-me-resume{
         flex-direction: column;
