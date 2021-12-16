@@ -27,10 +27,39 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.212);
 }
 .top-content-mobile img{
-    width: 120px;
+    width: 100px;
     margin: 0 15px;
+    cursor: pointer;
+}
+.menu-openned{
+    transition:all ease .2s;
+    width:0vw;
+    height: fit-content;
+    padding: 5px 0 0 5px;
+    right: 0;
+    position: fixed;
+    background-color: #000;
+    z-index: 999;
+    border-radius: 5px;
+}
+.menu-openned ul{
+    padding-bottom: 15px;
+    list-style: none;
+}
+.menu-openned li{
+    padding: 25px 0 0 10px;
+    font-size: 17px;
+}
+.show{
+    width: 60vw;
 }
 
 /*MENU DESKTOP*/

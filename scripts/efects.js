@@ -45,6 +45,16 @@ function animeteScroll(){
     })
 }
 
+//ABRINDO MENU MOBILE
+queryS('.open-menu').addEventListener('click', ()=>{
+    queryS('.menu-openned').classList.add('show')
+})
+//FECHANDO MENU MOBILE
+queryS('.close-menu').addEventListener('click', ()=>{
+    queryS('.menu-openned').classList.remove('show')
+})
+
+
 //FUNÇÕES ATIVAS NO LOAD
 textoAnimado(texto)
 showCourseTop()
