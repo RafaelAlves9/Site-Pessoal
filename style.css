@@ -20,6 +20,20 @@ a{
 .background{
     height: 100vh;
 }
+/*MENU MOBILE*/
+.top-content-mobile{
+    height: 55px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-content-mobile img{
+    width: 120px;
+    margin: 0 15px;
+}
+
+/*MENU DESKTOP*/
 .top-content{
     height: 90px;
     top: 0;
