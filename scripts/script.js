@@ -1,4 +1,5 @@
 //mudando conteúdo do portifólio
+
 const queryS = (e) => document.querySelector(e)
 queryS('.portifolio-todos').addEventListener('click', ()=>{
     if (queryS('.portifolio-todos').classList.contains('selectioned') == false){

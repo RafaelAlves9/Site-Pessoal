@@ -26,6 +26,7 @@ a{
     right: 0;
     left: 0;
     position: fixed;
+    z-index: 999;
 }
 .top-menu{
     margin: auto;
@@ -65,7 +66,7 @@ a{
     margin: auto;
     padding-top: 30vh;
     text-align: left;
-    width: 70%;
+    width: 90%;
     max-width: 900px;
     color: #fff;
 }
@@ -86,6 +87,7 @@ a{
     margin-left: 5px;
     opacity: 1;
     animation: pisca 0.7s infinite;
+    position: relative;
 }
 @keyframes pisca{
     0%, 100%{
@@ -167,7 +169,7 @@ a{
 }
 .about-me-resume-screen{
     margin-top: 60px;
-    width: 40%;
+    width: 95%;
 }
 .about-me-resume-screen img{
     width: 300px;
@@ -176,7 +178,7 @@ a{
 }
 .about-me-resume-text{
     text-align: left;
-    width: 50%;
+    width: 95%;
 }
 .about-me-resume-text h2{
     font-weight: 500;
@@ -226,15 +228,15 @@ a{
     transition: 0.3s;
 }
 .selectioned{
-    color: #CC6CE6;opacity: 1;
-    animation: semi-pisca 1s infinite;
+    color: #dba1eb;opacity: 1;
+    animation: semi-pisca 0.7s infinite;
 }
 @keyframes semi-pisca{
     0%, 100%{
         opacity: 1;
     }
     50%{
-        opacity: 0.5;
+        opacity: 0.7;
     }
 }
 .portifolio-resume{
@@ -327,20 +329,15 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.send-mesenge{
-    width: 60%;
-}
-.contact-list{
-    width: 40%;
-}
 .contact-resume{
     margin-top: 50px;
 }
 
 /*FORMULÁRIO*/
 .send-messenge{
-    height: 600px;
-    width: 500px;
+    height: 550px;
+    width: 95%;
+    max-width: 500px;
     border: 2px solid #316C99;
 }
 .send-messenge-form{
@@ -383,6 +380,9 @@ a{
 }
 
 /*CONTATO LISTA*/
+.contact-list{
+    text-align: center;
+}
 .contact-list p{
     margin-top: 80px;
     font-size: 18px;
@@ -393,6 +393,7 @@ a{
     display: flex;
     flex-direction: column;
     width: 70px;
+    text-align: center;
 }
 .contact-list li{
     padding-bottom: 25px;
@@ -425,6 +426,91 @@ footer{
 }
 [data-anime].animated{
     opacity: 1;
-    transition: 1.5s;
+    transition: 1.2s;
     transform: scale(1);
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width:1150px){
+    .contact-resume{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .send-mesenge{
+        margin: auto;
+    }
+}
+
+@media (max-width:900px){
+    .top-content{
+        display: none;
+    }
+    .about-me-resume{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .about-me-resume-text{
+        margin-top: 25px;
+        text-align: justify;
+    }
+    .about-me-resume-text h2{
+        text-align: center;
+    }
+    #course-move,#course-move2{
+        display: none;
+        opacity: 0;
+    }
+}
+
+@media (max-width:600px){
+    .portifolio-resume-square{
+        width: 80%;
+    }
+    .study-content, .experience-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .qualification-resume-title, .qualification-resume-text{
+        width: 95%;
+    }
+    .qualification-resume-text{
+        text-align: justify;
+    }
+}
+
+@media (max-width:450px) {
+    .apresentation-content h1{
+        font-size: 40px;
+    }
+    .apresentation-content h2{
+        font-size: 25px;
+    }
+    .tab-title{
+        margin-bottom: 0px;
+        font-size: 35px;
+    }
+    .portifolio-resume, .contact-resume{
+        margin-top: 20px;
+    }
+    #about-me-tab{
+        padding-bottom: 50px;
+    }
+    .about-me-resume-screen img{
+        width: 200px;
+    }
+    .about-me-resume-text{
+        font-size: 13px;
+    }
+    .portifolio-resume-categories li{
+        font-size: 13px;
+
+    }
+    .qualification-resume-title{
+        font-size: 20px;
+    }
+    .qualification-resume-text{
+        font-size: 14px;
+    }
 }

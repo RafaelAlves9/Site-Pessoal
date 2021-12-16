@@ -7,7 +7,6 @@ function textoAnimado(elemento){
     textoArray.forEach((letra, i) => {
         setTimeout(()=> elemento.innerHTML += letra, 120 * i)})
 }
-textoAnimado(texto)
 
 //MUDANDO COR DO MENU NA ROLAGEM
 const navbar = queryS('.top-content')
@@ -33,7 +32,7 @@ function showCourseTop(){
     }
 }
 
-//animação lazy
+//ANIMAÇÃO NO SCROLL
 const target = document.querySelectorAll('[data-anime]')
 const animationClass = 'animated'
 
@@ -45,3 +44,7 @@ function animeteScroll(){
         }
     })
 }
+
+//FUNÇÕES ATIVAS NO LOAD
+textoAnimado(texto)
+showCourseTop()
