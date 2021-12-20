@@ -1,0 +1,25 @@
+{
+  "name": "site-pessoal",
+  "version": "1.0.0",
+  "description": "testeNode",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "myql": "^1.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelAlves9/Site-pessoal.git"
+  },
+  "author": "rafael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelAlves9/Site-pessoal/issues"
+  },
+  "homepage": "https://github.com/RafaelAlves9/Site-pessoal#readme"
+}
