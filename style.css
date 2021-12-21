@@ -375,59 +375,6 @@ a{
     color: #fff;
     text-align: center;
 }
-.contact-resume{
-    display: flex;
-    justify-content: space-between;
-}
-.contact-resume{
-    margin-top: 50px;
-}
-
-/*FORMULÁRIO*/
-.send-messenge{
-    height: 550px;
-    width: 95%;
-    max-width: 500px;
-    border: 2px solid #316C99;
-}
-.send-messenge-form{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    outline: none;
-}
-.send-messenge-form input{
-    outline: none;
-    width: 90%;
-    max-width: 368px;
-    margin-bottom: 15px;
-    padding: 7px;
-}
-.localidade{
-    display: flex;
-    width: 90%;
-    max-width: 368px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.localidade input{
-    width: 49%;
-}
-.send-messenge-form textarea{
-    padding: 7px;
-    outline: none;
-    width: 90%;
-    max-width: 368px;
-    height: 150px;
-    resize: none;
-}
-.submit-messenge{
-    margin-top: 10px;
-    width: 100%;
-    max-width: 150px;
-    text-align: center;
-}
 
 /*CONTATO LISTA*/
 .contact-list{
@@ -438,16 +385,17 @@ a{
     font-size: 18px;
 }
 .contact-list ul{
-    margin-top: 70px;
+    padding-top: 50px;
+    margin: auto;
     list-style: none;
     display: flex;
     flex-direction: column;
-    width: 70px;
     text-align: center;
+    width: 200px;
 }
 .contact-list li{
     padding-bottom: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .contact-list a{
     display: flex;
@@ -481,17 +429,6 @@ footer{
 }
 
 /*RESPONSIVIDADE*/
-@media (max-width:1150px){
-    .contact-resume{
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10px;
-    }
-    .send-mesenge{
-        margin: auto;
-    }
-}
-
 @media (max-width:900px){
     .top-content{
         display: none;
