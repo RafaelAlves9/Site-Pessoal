@@ -58,8 +58,11 @@ a{
     padding: 25px 0 0 10px;
     font-size: 20px;
 }
+.menu-openned a{
+    color: #d186e6;
+}
 .menu-openned a:hover{
-    color: rgba(255, 255, 255, 0.767);
+    color: #fff;
 }
 .show{
     width: 50vw;
@@ -435,9 +438,6 @@ footer{
 
 /*RESPONSIVIDADE*/
 @media (max-width:900px){
-    .contact-resume{
-        display: block;
-    }
     .top-content{
         display: none;
     }
