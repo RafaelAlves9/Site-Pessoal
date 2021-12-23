@@ -70,7 +70,7 @@
                     <h2>Rafael Alves</h2>
                     <span>
                         <p><strong>Comecei a estudar programação no final de 2021</strong>, nunca tinha tido contato com código antes, embora tivesse contato com o computador desde 7 anos. </p>
-                        <p><strong>Estudei durante 3 anos para concursos para instituições militares</strong>, obtive alguns sims e muitos nãos, porém, sabia que não era aquilo que queria. Sempre gostei de desafios e não me via como servidor público a vida toda</p>
+                        <p><strong>Estudei durante 3 anos para concursos de instituições militares</strong>, obtive alguns sims e muitos nãos, porém, sabia que não era aquilo que queria. Sempre gostei de desafios e não me via como servidor público.</p>
                         <p>Quando tive contato com a lógica de programação foi amor a primeira vista! <strong>Programar usando lógica e construir sistemas e sites apartir disso é encantador!</strong> Desde o início eu já sabia que queria desenvolver para Web, então não perdi muito tempo pra começar os estudou de JavaScript.</p>
                         <p><strong>Gosto de ver as coisas funcionando, de pensar em coisas novas que vão melhoras a experiência do usuário e gerar resultados</strong>.</p>
                         <br>
@@ -153,15 +153,33 @@
     <section id="contact-tab"><!--BLOCO 4-->
         <div class="contact-content">
             <h1 class="tab-number">04</h1>
-            <h1 class="tab-title">Contato</h1>
-            <div class="contact-list" data-anime>
-                <p>Se quiser entrar em contato comigo, fique à vontade :)</p>
-                <ul>
-                    <li><a href="#"><img src="image/WhatsApp.svg.png" alt="">(21) 96711-2523</a></li>
-                    <li><a href=""><img src="image/linkedin.png" alt="">Linkedin</a></li>
-                    <li><a href=""><img src="image/github1.jpg" alt="">RafaelAlves9</a></li>
-                    <li><a href="#"><img src="image/discord.png" alt="">Discord</a></li>
-                </ul>
+            <h1 class="tab-title">Contato</h1><div>
+            <div class="contact-resume" data-anime><!--FORMULÁRIO-->
+                <div class="send-messenge">
+                    <img style="width: 100px;" src="image/mensagem-icon.png" alt="">
+                    <form class="send-messenge-form" method="POST" action="/form">
+                        <input type="name" name="nome" placeholder="Nome / Apelido*" required>
+                        <input type="email" name="email" placeholder="Digite seu melhor Email*" required>
+                        De onde você é? <br> <br>
+                        <div class="localidade">
+                            <input type="cep" name="CEP" placeholder="Digite seu CEP">
+                            <input type="text" name="estado" placeholder="Estado">
+                            <input type="text" name="Bairro" placeholder="Bairro">
+                            <input type="text" name="rua" placeholder="Rua">
+                        </div>
+                        <textarea name="mensagem" placeholder="Envie-me uma mensagem!*" required></textarea>
+                        <div class="submit-messenge"><input type="submit" value="enviar" class="button-form"></div>
+                    </form>
+                </div>
+                <div class="contact-list" data-anime>
+                    <p>Se quiser entrar em contato comigo, fique à vontade :)</p>
+                    <ul>
+                        <li><a href="#!"><img src="image/WhatsApp.svg.png" alt="">(21) 96711-2523</a></li>
+                        <li><a href="https://www.linkedin.com/in/rafael-alves412/" target="_blanck"><img src="image/linkedin.png" alt="">Linkedin</a></li>
+                        <li><a href="https://github.com/RafaelAlves9" target="_blanck"><img src="image/github1.jpg" alt="">RafaelAlves9</a></li>
+                        <li><a href="#!"><img src="image/discord.png" alt="">Rafael.a9#5611</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
