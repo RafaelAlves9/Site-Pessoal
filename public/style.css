@@ -383,6 +383,52 @@ a{
     margin-top: 20px;
 }
 
+/*FORMULÁRIO*/
+.send-messenge{
+    height: 550px;
+    width: 95%;
+    max-width: 500px;
+    border: 2px solid #316C99;
+}
+.send-messenge-form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    outline: none;
+}
+.send-messenge-form input{
+    outline: none;
+    width: 90%;
+    max-width: 368px;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+.localidade{
+    display: flex;
+    width: 90%;
+    max-width: 368px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.localidade input{
+    width: 49%;
+}
+.send-messenge-form textarea{
+    padding: 7px;
+    outline: none;
+    width: 90%;
+    max-width: 368px;
+    height: 150px;
+    resize: none;
+}
+.submit-messenge{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+}
+
 /*CONTATO LISTA*/
 .contact-list{
     text-align: center;
