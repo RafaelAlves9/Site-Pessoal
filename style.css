@@ -374,7 +374,6 @@ a{
     margin: auto;
     width: 90%;
     max-width: 1200px;
-    height: 100%;
     color: #fff;
     text-align: center;
 }
@@ -386,7 +385,7 @@ a{
 /*FORMULÁRIO*/
 .send-messenge{
     height: 550px;
-    width: 95%;
+    width: 97%;
     max-width: 500px;
     border: 2px solid #316C99;
 }
@@ -422,7 +421,7 @@ a{
     height: 150px;
     resize: none;
 }
-.submit-messenge{
+.send-messenge button{
     margin-top: 10px;
     width: 100%;
     max-width: 150px;
@@ -505,6 +504,10 @@ footer{
     #course-move,#course-move2{
         display: none;
         opacity: 0;
+    }
+    .contact-resume{
+        display: block;
+        margin-top: 20px;
     }
 }
 

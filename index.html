@@ -154,37 +154,39 @@
     </section>
 
     <section id="contact-tab"><!--BLOCO 4-->
-        <div class="contact-resume" data-anime><!--FORMULÁRIO-->
-                <div class="send-messenge">
-                    <img style="width: 100px;" src="image/mensagem-icon.png" alt="">
-                    <form class="send-messenge-form" method="POST" action="/form">
-                        <input type="name" name="nome" placeholder="Nome / Apelido*" required>
-                        <input type="email" name="email" placeholder="Digite seu melhor Email*" required>
-                        De onde você é? <br> <br>
-                        <div class="localidade">
-                            <input type="cep" name="CEP" placeholder="Digite seu CEP">
-                            <input type="text" name="estado" placeholder="Estado">
-                            <input type="text" name="Bairro" placeholder="Bairro">
-                            <input type="text" name="rua" placeholder="Rua">
-                        </div>
-                        <textarea name="mensagem" placeholder="Envie-me uma mensagem!*" required></textarea>
-                        <div class="submit-messenge"><input type="submit" value="enviar" class="button-form"></div>
-                    </form>
-                </div>
             <div class="contact-content">
                 <h1 class="tab-number">04</h1>
                 <h1 class="tab-title">Contato</h1>
-                <div class="contact-list" data-anime>
-                    <p>Se quiser entrar em contato comigo, fique à vontade :)</p>
-                    <ul>
-                        <li><a href="#!"><img src="image/WhatsApp.svg.png" alt="">(21) 96711-2523</a></li>
-                        <li><a href="https://www.linkedin.com/in/rafael-alves412/" target="_blanck"><img src="image/linkedin.png" alt="">Linkedin</a></li>
-                        <li><a href="https://github.com/RafaelAlves9" target="_blanck"><img src="image/github1.jpg" alt="">RafaelAlves9</a></li>
-                        <li><a href="#!"><img src="image/discord.png" alt="">Rafael.a9#5611</a></li>
-                    </ul>
+                <div class="contact-resume" data-anime><!--FORMULÁRIO-->
+                    <div class="send-messenge">
+                        <img style="width: 100px;" src="image/mensagem-icon.png" alt="">
+                        <form class="send-messenge-form">
+                            <input type="name" name="nome" placeholder="Nome / Apelido*" required>
+                            <input type="email" name="email" placeholder="Digite seu melhor Email*" required>
+                            De onde você é? <br> <br>
+                            <div class="localidade">
+                                <input type="cep" name="CEP" placeholder="Digite seu CEP">
+                                <input type="text" name="estado" placeholder="Estado">
+                                <input type="text" name="Bairro" placeholder="Bairro">
+                                <input type="text" name="rua" placeholder="Rua">
+                            </div>
+                            <textarea name="mensagem" placeholder="Envie-me uma mensagem!*" required></textarea>
+                            
+                            <button>Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-list" data-anime><!--LISTA DE CONTATO-->
+                        <p>Se quiser entrar em contato comigo, fique à vontade :)</p>
+                        <ul>
+                            <li><a href="#!"><img src="image/WhatsApp.svg.png" alt="">(21) 96711-2523</a></li>
+                            <li><a href="https://www.linkedin.com/in/rafael-alves412/" target="_blanck"><img src="image/linkedin.png" alt="">Linkedin</a></li>
+                            <li><a href="https://github.com/RafaelAlves9" target="_blanck"><img src="image/github1.jpg" alt="">RafaelAlves9</a></li>
+                            <li><a href="#!"><img src="image/discord.png" alt="">Rafael.a9#5611</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <footer><!--FOOTER-->
@@ -192,7 +194,6 @@
     </footer>
     
     <!--SCRIPTS-->
-    <script src="scripts/config.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/efects.js"></script>
 
