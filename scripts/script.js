@@ -55,6 +55,25 @@ queryS('.portifolio-bootstrap').addEventListener('click', ()=>{
 queryS('.portifolio-javascript').addEventListener('click', ()=>{
     if (queryS('.portifolio-javascript').classList.contains('selectioned') == false){
         //adicionando class selectioned
+        queryS('.portifolio-react').classList.add('selectioned')
+        queryS('.portifolio-javascript').classList.remove('selectioned')
+        queryS('.portifolio-bootstrap').classList.remove('selectioned')
+        queryS('.portifolio-html').classList.remove('selectioned')
+        queryS('.portifolio-todos').classList.remove('selectioned')
+
+        queryS('#react').style.display = 'block'
+        queryS('#javascript').style.display = 'none'
+        queryS('#javascript1').style.display = 'none'
+        queryS('#javascript2').style.display = 'none'
+        queryS('#bootstrap').style.display = 'none'
+        queryS('#html').style.display = 'none'
+        queryS('#html1').style.display = 'none'
+    }
+})
+
+queryS('.portifolio-javascript').addEventListener('click', ()=>{
+    if (queryS('.portifolio-javascript').classList.contains('selectioned') == false){
+        //adicionando class selectioned
         queryS('.portifolio-javascript').classList.add('selectioned')
         queryS('.portifolio-bootstrap').classList.remove('selectioned')
         queryS('.portifolio-html').classList.remove('selectioned')
