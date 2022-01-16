@@ -52,8 +52,8 @@ queryS('.portifolio-bootstrap').addEventListener('click', ()=>{
     }
 })
 
-queryS('.portifolio-javascript').addEventListener('click', ()=>{
-    if (queryS('.portifolio-javascript').classList.contains('selectioned') == false){
+queryS('.portifolio-react').addEventListener('click', ()=>{
+    if (queryS('.portifolio-react').classList.contains('selectioned') == false){
         //adicionando class selectioned
         queryS('.portifolio-react').classList.add('selectioned')
         queryS('.portifolio-javascript').classList.remove('selectioned')
