@@ -5,6 +5,7 @@ queryS('.portifolio-todos').addEventListener('click', ()=>{
     if (queryS('.portifolio-todos').classList.contains('selectioned') == false){
         //adicionando class selectioned
         queryS('.portifolio-todos').classList.add('selectioned')
+        queryS('.portifolio-react').classList.remove('selectioned')
         queryS('.portifolio-javascript').classList.remove('selectioned')
         queryS('.portifolio-bootstrap').classList.remove('selectioned')
         queryS('.portifolio-html').classList.remove('selectioned')
@@ -15,6 +16,7 @@ queryS('.portifolio-todos').addEventListener('click', ()=>{
         queryS('#bootstrap').style.display = 'block'
         queryS('#html').style.display = 'block'
         queryS('#html1').style.display = 'block'
+        queryS('#react').style.display = 'none'
     }
 })
 
@@ -22,6 +24,7 @@ queryS('.portifolio-html').addEventListener('click', ()=>{
     if (queryS('.portifolio-html').classList.contains('selectioned') == false){
         //adicionando class selectioned
         queryS('.portifolio-html').classList.add('selectioned')
+        queryS('.portifolio-react').classList.remove('selectioned')
         queryS('.portifolio-javascript').classList.remove('selectioned')
         queryS('.portifolio-bootstrap').classList.remove('selectioned')
         queryS('.portifolio-todos').classList.remove('selectioned')
@@ -32,6 +35,7 @@ queryS('.portifolio-html').addEventListener('click', ()=>{
         queryS('#bootstrap').style.display = 'none'
         queryS('#html').style.display = 'block'
         queryS('#html1').style.display = 'block'
+        queryS('#react').style.display = 'none'
     }
 })
 
@@ -39,6 +43,7 @@ queryS('.portifolio-bootstrap').addEventListener('click', ()=>{
     if (queryS('.portifolio-bootstrap').classList.contains('selectioned') == false){
         //adicionando class selectioned
         queryS('.portifolio-bootstrap').classList.add('selectioned')
+        queryS('.portifolio-react').classList.remove('selectioned')
         queryS('.portifolio-javascript').classList.remove('selectioned')
         queryS('.portifolio-html').classList.remove('selectioned')
         queryS('.portifolio-todos').classList.remove('selectioned')
@@ -49,6 +54,7 @@ queryS('.portifolio-bootstrap').addEventListener('click', ()=>{
         queryS('#bootstrap').style.display = 'block'
         queryS('#html').style.display = 'none'
         queryS('#html1').style.display = 'none'
+        queryS('#react').style.display = 'none'
     }
 })
 
@@ -75,6 +81,7 @@ queryS('.portifolio-javascript').addEventListener('click', ()=>{
     if (queryS('.portifolio-javascript').classList.contains('selectioned') == false){
         //adicionando class selectioned
         queryS('.portifolio-javascript').classList.add('selectioned')
+        queryS('.portifolio-react').classList.remove('selectioned')
         queryS('.portifolio-bootstrap').classList.remove('selectioned')
         queryS('.portifolio-html').classList.remove('selectioned')
         queryS('.portifolio-todos').classList.remove('selectioned')
@@ -85,5 +92,6 @@ queryS('.portifolio-javascript').addEventListener('click', ()=>{
         queryS('#bootstrap').style.display = 'none'
         queryS('#html').style.display = 'none'
         queryS('#html1').style.display = 'none'
+        queryS('#react').style.display = 'none'
     }
 })
