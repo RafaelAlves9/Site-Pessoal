@@ -16,7 +16,7 @@ queryS('.portifolio-todos').addEventListener('click', ()=>{
         queryS('#bootstrap').style.display = 'block'
         queryS('#html').style.display = 'block'
         queryS('#html1').style.display = 'block'
-        queryS('#react').style.display = 'none'
+        queryS('#react').style.display = 'block'
     }
 })
 
