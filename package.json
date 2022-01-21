@@ -1,0 +1,19 @@
+{
+  "name": "site-pessoal",
+  "version": "1.0.0",
+  "description": "my personal portifolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelAlves9/Site-Pessoal.git"
+  },
+  "author": "rafael alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelAlves9/Site-Pessoal/issues"
+  },
+  "homepage": "https://github.com/RafaelAlves9/Site-Pessoal#readme"
+}
